@@ -1,3 +1,5 @@
+[![router.hk API client python package CI](https://github.com/routerhk/routerhk/actions/workflows/routerhk.yml/badge.svg)](https://github.com/routerhk/routerhk/actions/workflows/routerhk.yml)
+
 # router.hk API Client
 
 Python package for making requests to router.hk APIs.
