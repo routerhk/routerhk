@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='routerhk',
-    version='0.1.1',
+    version='250715',
     packages=find_packages(),
     install_requires=[
         'requests',

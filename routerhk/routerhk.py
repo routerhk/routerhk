@@ -1,8 +1,8 @@
 import requests
 import socket
 
-class RouterHk:
-    VERSION = 0.1
+class RouterHK:
+    VERSION = '250715'
     BASE_URL = "https://router.hk/api"
     DEFAULT_TIMEOUT = 3
     ip_version = None
@@ -51,10 +51,10 @@ class RouterHk:
             self.client_accept_language = self.api_response['accept_language']
             self.api_time_human_readable = self.api_response['time_human_readable']
             self.api_time = self.api_response['time']
-            return True
+            return self.ip_address
         else:
             self.ip_address = None
             self.via_proxy_ip_address = None
             self.client_user_agent = None
             self.client_accept_language = None
-            return False
+            return None

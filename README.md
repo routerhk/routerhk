@@ -10,6 +10,14 @@ Python package for making requests to router.hk APIs.
 pip install routerhk
 ```
 
+## Usage
+
+```
+from routerhk import RouterHK
+router = RouterHK()
+router.get_ip()
+```
+
 ## License
 
 Copyright 2025 Sammy Fung
